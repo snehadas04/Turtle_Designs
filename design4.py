@@ -2,7 +2,7 @@ import turtle as t
 import colorsys as cs
 t.bgcolor('black')
 t.width(8)
-t.speed(20)
+t.speed(50)
 t.tracer(30)
 h=0
 
@@ -14,3 +14,12 @@ for i in range(600):
     t.begin_fill()
     t.circle(i/4,60)
     t.rt(20)
+    t.up()
+    t.goto(0,0)
+    t.down()
+    t.circle(i/4,30)
+    t.rt(55)
+    t.fd(i/6)
+    t.end_fill()
+
+t.done()
