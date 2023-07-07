@@ -5,7 +5,7 @@ s.bgcolor("black")
 t.width(2)
 t.speed(15)
 col = ('white','pink','cyan')
-for i in range(300):
+for i in range(140):
     t.pencolor(col[i%3])
     t.forward(i*4)
     t.right(121)
