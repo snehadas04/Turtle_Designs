@@ -2,7 +2,7 @@ import turtle
 import colorsys
 
 turtle.bgcolor("black")
-turtle.speed("fastest")
+turtle.speed(10)
 c=0.0
 turtle.hideturtle()
 
